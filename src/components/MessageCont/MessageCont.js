@@ -89,7 +89,7 @@ function MessageCont() {
 
         <div className="status">
           <Button block outline color="success" className="btn-pill small-pill">
-            <p>published</p>
+            <p className="pub">published</p>
           </Button>
           <p className="time">14 mins ago</p>
         </div>
@@ -153,7 +153,7 @@ function MessageCont() {
 
         <div className="status">
           <Button block outline color="success" className="btn-pill small-pill">
-            <p>published</p>
+            <p className="pub">published</p>
           </Button>
           <p className="time">14 mins ago</p>
         </div>
@@ -217,7 +217,7 @@ function MessageCont() {
 
         <div className="status">
           <Button block outline color="success" className="btn-pill small-pill">
-            <p>published</p>
+            <p className="pub">published</p>
           </Button>
           <p className="time">14 mins ago</p>
         </div>
@@ -281,7 +281,7 @@ function MessageCont() {
 
         <div className="status">
           <Button block outline color="success" className="btn-pill small-pill">
-            <p>published</p>
+            <p className="pub">published</p>
           </Button>
           <p className="time">14 mins ago</p>
         </div>
