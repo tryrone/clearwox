@@ -1,0 +1,13 @@
+.change {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.app-body {
+  background: white;
+}
+
+hr {
+  position: relative;
+  top: -40px;
+}

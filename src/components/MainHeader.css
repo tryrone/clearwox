@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.7rem;
+}
+.search {
+  border-radius: 9px;
+}
+
+.search-input:focus {
+  border: none;
+}
+
+.main-head {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width:700px){
+    .hide{
+        display: none;
+    }
+}

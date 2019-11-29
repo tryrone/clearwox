@@ -1,0 +1,32 @@
+.buis {
+  position: relative;
+  top: -2px;
+}
+
+.tab-buis {
+  margin-right: 18rem;
+}
+
+p {
+  color: rgb(131, 131, 127);
+}
+
+li {
+  list-style: none;
+}
+
+.tab-header {
+  display: flex;
+  margin-top: 2rem;
+}
+
+i {
+  cursor: pointer;
+}
+.sec {
+  margin-right: 7.4rem;
+}
+
+.sec-tab {
+  display: flex;
+}
