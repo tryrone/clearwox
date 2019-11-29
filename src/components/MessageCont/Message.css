@@ -48,6 +48,7 @@
   height: 20px;
   width: 20px;
   background-color: rgb(95, 92, 92);
+  padding-left: 1em;
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -68,6 +69,10 @@
   color: #f86c6b;
   position: relative;
   top: -5px;
+}
+
+.pub {
+  color: rgb(68, 206, 126);
 }
 
 .small-pill > p:hover {
