@@ -33,7 +33,7 @@
   font-size: 13px;
   position: relative;
   top: -5px;
-  left: -1px;
+  left: -12px;
   color: whitesmoke;
 }
 
@@ -71,8 +71,12 @@
   top: -5px;
 }
 
-.pub {
+p.pub {
   color: rgb(68, 206, 126);
+}
+
+p.pub:hover {
+  color: white;
 }
 
 .small-pill > p:hover {
