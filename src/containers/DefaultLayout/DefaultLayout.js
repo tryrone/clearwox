@@ -1,17 +1,8 @@
 import React, { Component, Suspense } from "react";
-import * as router from "react-router-dom";
 import { Container } from "reactstrap";
 import "./Default.css";
 
-import {
-  AppHeader,
-  AppSidebar,
-  AppSidebarFooter,
-  AppSidebarForm,
-  AppSidebarHeader,
-  AppSidebarMinimizer,
-  AppSidebarNav2 as AppSidebarNav
-} from "@coreui/react";
+import { AppSidebar, AppHeader } from "@coreui/react";
 
 //personal component imports
 import MainHeader from "../../components/MainHeader";
@@ -20,10 +11,8 @@ import LocalInfo from "../../components/LocalInfo/LocalInfo";
 import GraphChart from "../../components/GraphChart/GraphChart";
 import TableHead from "../../components/TableHead/TableHead";
 import MessageCont from "../../components/MessageCont/MessageCont";
-
-// sidebar nav config
-import navigation from "../../_nav";
-// routes config
+import SideBar from "../../components/SideBar/SideBar";
+import HalfSide from "../../components/HalfSide/HalfSide";
 
 const DefaultHeader = React.lazy(() => import("./DefaultHeader"));
 
@@ -46,19 +35,11 @@ class DefaultLayout extends Component {
           </Suspense>
         </AppHeader>
         <div className="app-body">
-          <AppSidebar fixed display="lg">
-            <AppSidebarHeader />
-            <AppSidebarForm />
-            <Suspense>
-              <AppSidebarNav
-                navConfig={navigation}
-                {...this.props}
-                router={router}
-              />
-            </Suspense>
-            <AppSidebarFooter />
-            <AppSidebarMinimizer />
+          <AppSidebar fixed display="lg" className="small-md">
+            <SideBar />
+            <HalfSide />
           </AppSidebar>
+
           <main className="main">
             <Container fluid>
               <MainHeader />

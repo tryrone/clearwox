@@ -73,7 +73,7 @@ function MessageCont() {
       <div className="mes-container">
         <div className="image">
           <img
-            src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
             alt="res"
           />
         </div>
@@ -137,7 +137,7 @@ function MessageCont() {
       <div className="mes-container">
         <div className="image">
           <img
-            src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
             alt="res"
           />
         </div>
@@ -201,7 +201,7 @@ function MessageCont() {
       <div className="mes-container">
         <div className="image">
           <img
-            src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            src="https://images.pexels.com/photos/1054974/pexels-photo-1054974.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
             alt="res"
           />
         </div>
@@ -265,7 +265,7 @@ function MessageCont() {
       <div className="mes-container">
         <div className="image">
           <img
-            src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            src="https://images.pexels.com/photos/3171815/pexels-photo-3171815.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
             alt="res"
           />
         </div>

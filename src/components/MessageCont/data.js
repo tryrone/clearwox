@@ -5,7 +5,7 @@ export default [
     msgNname: "john stavos",
     under: "seafoo +4",
     color: "danger",
-    status: "published",
+    status: "draft",
     time: "14 mins ago",
     ratings: 90,
     numviews: 304,
@@ -79,7 +79,7 @@ export default [
     color: "success",
     status: "published",
     time: "14 mins ago",
-    ratings: 9093,
+    ratings: 909,
     numviews: 304,
     numactions: 603
   }

@@ -7,7 +7,30 @@
   background: white;
 }
 
+.small-md {
+  background: rgb(241, 241, 241);
+  color: rgb(124, 122, 122);
+}
+
 hr {
   position: relative;
   top: -40px;
+}
+
+nav.sidenav---sidenav---_2tBP.sidenav---expanded---1KdUL {
+  min-width: 200px;
+}
+
+button.sidenav---sidenav-toggle---1KRjR span.sidenav---icon-bar---u1f02 {
+  /* background-color: #131313; */
+  display: none;
+}
+
+button.sidenav---sidenav-toggle---1KRjR {
+  background: url("C:\Users\Tega oboraruvwe\Documents\clearwoxs\dashboard\src\components\SideBar\Screenshot (76).png")
+    center/cover no-repeat;
+}
+
+.half-container {
+  margin-left: 2rem;
 }
